@@ -22,12 +22,12 @@
 		91AD7275176364BC009F2475 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		91AD7276176364BC009F2475 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		91AD7277176364BC009F2475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		91AD727A176364BC009F2475 /* SpeakLine-Info.plist */ = {isa = PBXFileReference; path = "SpeakLine-Info.plist"; sourceTree = "<group>"; };
+		91AD727A176364BC009F2475 /* SpeakLine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeakLine-Info.plist"; sourceTree = "<group>"; };
 		91AD727C176364BC009F2475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91AD727E176364BC009F2475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91AD7280176364BC009F2475 /* SpeakLine-Prefix.pch */ = {isa = PBXFileReference; path = "SpeakLine-Prefix.pch"; sourceTree = "<group>"; };
+		91AD7280176364BC009F2475 /* SpeakLine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeakLine-Prefix.pch"; sourceTree = "<group>"; };
 		91AD7282176364BC009F2475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		91AD7284176364BC009F2475 /* SpeakLineAppDelegate.h */ = {isa = PBXFileReference; path = SpeakLineAppDelegate.h; sourceTree = "<group>"; };
+		91AD7284176364BC009F2475 /* SpeakLineAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakLineAppDelegate.h; sourceTree = "<group>"; };
 		91AD7285176364BC009F2475 /* SpeakLineAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeakLineAppDelegate.m; sourceTree = "<group>"; };
 		91AD7288176364BD009F2475 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		91AD728B176364BD009F2475 /* SpeakLine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeakLine.xcdatamodel; sourceTree = "<group>"; };

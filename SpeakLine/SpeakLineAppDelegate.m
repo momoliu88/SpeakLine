@@ -9,12 +9,14 @@
 #import "SpeakLineAppDelegate.h"
 
 @implementation SpeakLineAppDelegate
+@synthesize textLine = _textLine;
 
 @synthesize window = _window;
 
+ 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    _speechSynthesizer = [[NSSpeechSynthesizer alloc]initWithVoice:nil]; 
 }
 
 /**
@@ -43,6 +45,18 @@
 /**
     Returns the persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it. (The directory for the store is created, if necessary.)
  */
+- (IBAction)stopit:(id)sender {
+    [_speechSynthesizer stopSpeaking];
+}
+
+- (IBAction)speakit:(id)sender {
+    NSString * str =  [_textLine stringValue];
+    if ([str length] == 0) {
+        NSLog(@"TEXT FIELD IS NOTHING");return;
+    }
+    [_speechSynthesizer startSpeakingString:str];
+}
+
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
     if (__persistentStoreCoordinator) {
         return __persistentStoreCoordinator;
